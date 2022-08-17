@@ -1,0 +1,29 @@
+{
+  "name": "vue-blog",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.1.4",
+    "@kangc/v-md-editor": "^2.3.15",
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.0",
+    "prismjs": "^1.28.0",
+    "vite-plugin-prismjs": "0.0.8",
+    "vue": "^3.2.25",
+    "vue-progressive-image": "^4.0.0",
+    "vue-router": "^4.0.15",
+    "vue-utterances": "^0.2.4",
+    "vue3-infinite-scroll-good": "^1.0.2",
+    "vue3-markdown-it": "^1.0.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/cli-plugin-router": "^5.0.3",
+    "vite": "^2.9.7"
+  }
+}
