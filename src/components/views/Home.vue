@@ -25,7 +25,7 @@
     
     <!-- main area -->
     <el-row :gutter="40">
-      <el-col :xs="18" :sm="18" :md="18" :lg="18" :xl="18">
+      <el-col :xs="24" :sm="24" :md="18" :lg="18" :xl="18">
         <PostList :allPosts="filterPostsByCategory" />
       </el-col>
 

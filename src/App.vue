@@ -2,6 +2,7 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 import 'element-plus/theme-chalk/display.css'
 </script>
 
@@ -9,6 +10,7 @@ import 'element-plus/theme-chalk/display.css'
   <div>
     <Navbar />
     <router-view></router-view>
+    <Footer />
   </div>
 </template>
 

@@ -3,6 +3,7 @@ import PostList from './components/PostList.vue'
 import Home from './components/views/Home.vue'
 import Post from './components/views/Post.vue'
 import Profile from './components/Profile.vue'
+import Contact from './components/views/Contact.vue'
 
 const routes = [
     {
@@ -15,6 +16,12 @@ const routes = [
         path: '/posts/:id',
         components: {
             default: Post
+        }
+    },
+    {
+        path: '/contact',
+        components: {
+            default: Contact
         }
     }
 ]

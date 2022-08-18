@@ -3,7 +3,7 @@
         <template #header>
         <el-avatar :size="200" src="https://c.tenor.com/ubG2OiW_yT8AAAAC/we-bare-bears.gif" />
         </template>
-        <div style="font-weight:200">David Chou</div>
+        <div style="font-weight:200">Brandon Chou</div>
         <div>Web Front End</div>
         <div>
             <a href="https://github.com/Yubo0826">

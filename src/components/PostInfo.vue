@@ -1,6 +1,6 @@
 <template>
     <div class="info-container">
-        <a href="https://www.cakeresume.com/yubo0826" class="author" target="_blank">Brandon Zhou</a>
+        <a href="https://www.cakeresume.com/yubo0826" class="author" target="_blank">Brandon Chou</a>
         <span>．{{ readingTime(post.content) }} min read ． {{ post.publishedAt.split('T')[0] }}</span>
     </div>
     <div class="tags-container">
